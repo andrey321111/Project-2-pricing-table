@@ -1,0 +1,91 @@
+body{
+    background-color: #F6F4EB;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.buy-buttom{
+    display: inline-block;
+    background-color: rgb(72, 243, 101);
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.buy-buttom > h4{
+margin: 0;
+
+padding: 7px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:45px;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    
+    
+}
+.card{
+    flex-shrink: 0;
+    max-width: 240px;
+    
+}
+
+.card-header{
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-body{
+    background-color: white;
+    text-align: center;
+}
+.left .card-header{
+    background-image:linear-gradient(to bottom right, red, yellow);
+    
+}
+.middle .card-header{
+    background-image:linear-gradient(to bottom right, green, blue);
+    
+}
+.right .card-header{
+    background-image:linear-gradient(to bottom right, purple, yellow);
+    
+}
+.card-body{
+    border-radius: 0px 0px 20px 20px;
+}
+.card-price{
+    display: inline-block;
+    margin-top: 10px;
+}
+.dollar{
+    float: left;
+    font-size: 15px;
+}
+h1{
+    margin:0;
+}
+h2{
+    margin: 0;
+    color: whitesmoke;
+
+}
+p{
+    display: inline-block;
+    margin:0;
+    margin-top: 3px;
+}
+ul{
+    margin-top: 15px;
+   
+}
+#mo{
+    font-size: small;
+}
+.card-body hr{
+    width: 50%;
+
+}
